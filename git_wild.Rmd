@@ -39,7 +39,13 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ggplot(data = diamonds, aes(x = depth, y = price, color = color)) +
   geom_point()
   theme_void() + 
-  labs(title = "Partner 1 Graph")\
+  labs(title = "Partner 1 Graph")
+#Hi Laurel - let's break this thing! 
+
+ggplot(data = diamonds, aes(x = color, y = carat)) +
+  geom_line() +
+  theme_bw()
+
 ```
 
 ```{r break-it-2}
