@@ -35,6 +35,11 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+# Depth and price graph - partner 1
+ggplot(data = diamonds, aes(x = depth, y = price, color = color)) +
+  geom_point()
+  theme_void() + 
+  labs(title = "Partner 1 Graph")
 #Hi Laurel - let's break this thing! 
 
 ggplot(data = diamonds, aes(x = color, y = carat)) +
